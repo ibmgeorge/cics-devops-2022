@@ -43,13 +43,14 @@ function getLab(instance) {
         table_data += '<p>Day 2 - z/OS Connect OAS3 API Lab</p>';
         table_data += '<h3>Connectivity</h3>'
         table_data += '<h4>Using a web browser</h4>';
-        table_data += '<p>Enter this URL address in the browser’s URL area: <br><mark>'+lines[index][1]+'</mark></p>';
-        table_data += '<p>Authentication with username: <mark>'+lines[index][2]+'</mark></p>';
-        table_data += '<p>Using password: <mark>'+lines[index][5]+'</mark></p>';
+        table_data += '<p>URL: <br><mark>'+lines[index][1]+'</mark></p>';
+        table_data += '<p>Username: <mark>'+lines[index][2]+'</mark></p>';
+        table_data += '<p>Password: <mark>'+lines[index][5]+'</mark></p>';
         table_data += '<h4>Or using a Remote Desktop Connection <small class="text-muted">(Preferred)</small></h4>';
-        table_data += '<p>Enter in the Computer area this host name: <br><mark>'+lines[index][3]+'</mark></p>';
-        table_data += '<p>Follow the PDF instructions above and authenticate with username: <br><mark>'+lines[index][4]+'</mark></p>';
-        table_data += '<p>Same password: <mark>'+lines[index][5]+'</mark></p>';
+        table_data += '<p>Host name: <br><mark>'+lines[index][3]+'</mark></p>';
+        table_data += '<p><B>on Windows make sure to select More Choice --> Use a different account to input credentials</b></p>';
+        table_data += '<p>Username: <br><mark>'+lines[index][4]+'</mark></p>';
+        table_data += '<p>Password: <mark>'+lines[index][5]+'</mark></p>';
         table_data += '<h4>During the lab</h4>';
         table_data += '<p>When the password for IBMUSER is required, enter <mark>SYS1</mark>  (IBMUSER is a RACF identity)</p>';
         table_data += '<p>When the password for ibmdev is required, enter <mark>Passw0rd</mark> (ibmdev is for Gitlab login)</p>';
