@@ -36,11 +36,11 @@ function getLab(instance) {
     var table_data = '<div class="alert alert-warning" role="alert">Instance ID not found.</div>'
     if (index != -1) {
         table_data =  '<H3>Lab Instructions</H3>';
-        table_data += '<p>Day 1 - CICS Lab1 Resource Builder Lab</p>';
-        table_data += '<p>Day 1 - CICS Lab2 Security Resource Recording Lab</p>';
-        table_data += '<p>Day 1 - CICS Lab3 </p>';
-        table_data += '<p>Day 2 - z Application DevOps CI/CD Pipeline Lab</p>';
-        table_data += '<p>Day 2 - z/OS Connect OAS3 API Lab</p>';
+        table_data += '<p>Day 1 - CICS Lab1 Resource Builder Lab <a href="labs/lab1.pdf">view</a></p>';
+        table_data += '<p>Day 1 - CICS Lab2 Security Resource Recording Lab <a href="labs/lab2.pdf">view</a></p>';
+        table_data += '<p>Day 1 - CICS Lab3 CICS Policy Lab <a href="labs/lab3.pdf">view</a></p>';
+        table_data += '<p>Day 2 - z Application DevOps CI/CD Pipeline Lab <a href="labs/lab4.pdf">view</a></p>';
+        table_data += '<p>Day 2 - z/OS Connect OAS3 API Lab <a href="labs/lab5.pdf">view</a></p>';
         table_data += '<h3>Connectivity</h3>'
         table_data += '<h4>Using a web browser</h4>';
         table_data += '<p>URL: <br><mark>'+lines[index][1]+'</mark></p>';
