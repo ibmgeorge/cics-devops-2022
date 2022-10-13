@@ -35,16 +35,22 @@ function getLab(instance) {
             index = i;
     var table_data = '<div class="alert alert-warning" role="alert">Instance ID not found.</div>'
     if (index != -1) {
-        table_data =  '<p>Below is the information you will need to access the exercises:</p>';
-        table_data += '<h5>Using a web browser</h5>';
+        table_data =  '<H3>Lab Instructions</H3>';
+        table_data += '<p>Day 1 - CICS Lab1 Resource Builder Lab</p>';
+        table_data += '<p>Day 1 - CICS Lab2 Security Resource Recording Lab</p>';
+        table_data += '<p>Day 1 - CICS Lab3 </p>';
+        table_data += '<p>Day 2 - z Application DevOps CI/CD Pipeline Lab</p>';
+        table_data += '<p>Day 2 - z/OS Connect OAS3 API Lab</p>';
+        table_data += '<h3>Connectivity</h3>'
+        table_data += '<h4>Using a web browser</h4>';
         table_data += '<p>Enter this URL address in the browser’s URL area: <br><mark>'+lines[index][1]+'</mark></p>';
         table_data += '<p>Authentication with username: <mark>'+lines[index][2]+'</mark></p>';
         table_data += '<p>Using password: <mark>'+lines[index][5]+'</mark></p>';
-        table_data += '<h5>Or using a Remote Desktop Connection <small class="text-muted">(Preferred)</small></h5>';
+        table_data += '<h4>Or using a Remote Desktop Connection <small class="text-muted">(Preferred)</small></h4>';
         table_data += '<p>Enter in the Computer area this host name: <br><mark>'+lines[index][3]+'</mark></p>';
         table_data += '<p>Follow the PDF instructions above and authenticate with username: <br><mark>'+lines[index][4]+'</mark></p>';
         table_data += '<p>Same password: <mark>'+lines[index][5]+'</mark></p>';
-        table_data += '<h5>During the lab</h5>';
+        table_data += '<h4>During the lab</h4>';
         table_data += '<p>When the password for IBMUSER is required, enter <mark>SYS1</mark>  (IBMUSER is a RACF identity)</p>';
         table_data += '<p>When the password for ibmdev is required, enter <mark>Passw0rd</mark> (ibmdev is for Gitlab login)</p>';
         table_data += '<p><strong>IMPORTANT: <br>Please DO NOT shutdown remote Windows system, just close the session or disconnect from the remote desktop. Otherwise you won&apos;t be able to reconnect.</strong></p>';
