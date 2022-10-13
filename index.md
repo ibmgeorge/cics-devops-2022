@@ -8,7 +8,7 @@
 
 Thank you for attending the workshop. 
   
-Click [here](https://github.com/ibmgeorge/cics-devops-2022/presentations){:target="_blank"} to download the presentation.
+Click [here](https://github.com/ibmgeorge/cics-devops-2022/tree/gh-pages/presentations){:target="_blank"} to download the presentation.
 
 ## Accessing the hands-on lab
 
@@ -16,7 +16,7 @@ All lab instances are available for 2 calendar days after the workshop finishes 
 
 Click [here](Remote Desktop Windows.pdf){:target="_blank"} to read the instruction for Remote Desktop access.
 
-All lab instructions are in the "Labs" folder on your remote desktop, or can be downloaded from [here](https://github.com/ibmgeorge/cics-devops-2022/labs){:target="_blank"} to view it locally.
+All lab instructions are in the "Labs" folder on your remote desktop, or can be downloaded from [here](https://github.com/ibmgeorge/cics-devops-2022/tree/gh-pages/labs){:target="_blank"} to view it locally.
 
 **Please enter your 4 digit machine id assigned to you to retrieve your unique log in details.**
 
