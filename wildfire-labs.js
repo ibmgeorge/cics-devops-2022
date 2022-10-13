@@ -33,7 +33,7 @@ function getLab(instance) {
     for (var i = 1; i < lines.length; i++)
         if (lines[i][7] == instance)
             index = i;
-    var table_data = '<div class="alert alert-warning" role="alert">Instance ID not found.</div>'
+    var table_data = '<div class="alert alert-warning" role="alert">Machine ID not found.</div>'
     if (index != -1) {
         table_data =  '<H3>Lab Instructions</H3>';
         table_data += '<p>Day 1 - CICS Lab1 Resource Builder Lab <a href="labs/lab1.pdf" target="_blank">view</a></p>';
