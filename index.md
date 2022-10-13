@@ -10,7 +10,7 @@ Thank you for attending the workshop.
   
 Click [here](https://github.com/ibmgeorge/cics-devops-2022/tree/gh-pages/presentations){:target="_blank"} to download the presentation.
 
-## Accessing the hands-on lab
+## Accessing the hands-on 
 
 All lab instances are available for 2 calendar days after the workshop finishes and can be accessed from Internet.
 
