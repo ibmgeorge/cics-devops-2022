@@ -39,7 +39,7 @@ function getLab(instance) {
         table_data += '<p>Day 1 - CICS Lab1 Resource Builder Lab <a href="labs/lab1.pdf" target="_blank">view</a></p>';
         table_data += '<p>Day 1 - CICS Lab2 Security Resource Recording Lab <a href="labs/lab2.pdf" target="_blank">view</a></p>';
         table_data += '<p>Day 1 - CICS Lab3 CICS Policy Lab <a href="labs/lab3.pdf" target="_blank">view</a></p>';
-        table_data += '<p>Day 2 - z Application DevOps CI/CD Pipeline Lab <a href="labs/lab4.pdf" target="_blank">view</a></p>';
+        table_data += '<p>Day 2 - z Application DevOps CI/CD Pipeline Lab <a href="labs/lab4.pdf" target="_blank">IDz</a> or <a href="labs/lab4b.pdf" target="_blank">VSCode</a></p>';
         table_data += '<p>Day 2 - z/OS Connect OAS3 API Lab <a href="labs/lab5.pdf" target="_blank">view</a></p>';
         table_data += '<h3>Connectivity</h3>'
         table_data += '<h4>Using a web browser</h4>';
