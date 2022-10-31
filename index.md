@@ -18,9 +18,11 @@ Click [here](Remote Desktop Windows.pdf){:target="_blank"} to read the instructi
 
 All lab instructions can be downloaded from [here](https://github.com/ibmgeorge/cics-devops-2022/tree/gh-pages/labs){:target="_blank"} to view it on the PC.
 
+**Perth onsite attendee**
 Please enter your 4 digit machine id assigned to you to retrieve your unique log in details.
 
-**Remote attendee please input your email address instead to retrive your unique log in details.**
+**Remote attendee**
+Please input your email address instead to retrive your unique log in details.**
 
 <form onsubmit="return false;">
 <div class="input-group mb-3 col-6">
