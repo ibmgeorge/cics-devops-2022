@@ -25,7 +25,7 @@ Please enter your 4 digit machine id assigned to you to retrieve your unique log
 <form onsubmit="return false;">
 <div class="input-group mb-3 col-6">
 <span class="input-group-text" id="basic-addon1">#</span>
-<input type="text" class="form-control" placeholder="Machine ID / Email" aria-label="Machine ID / Email" aria-describedby="basic-addon1" id="instance-id" maxlength="4" required oninput="validate();">
+<input type="text" class="form-control" placeholder="Machine ID / Email" aria-label="Machine ID / Email" aria-describedby="basic-addon1" id="instance-id" maxlength="40" required oninput="validate();">
 </div>
 <div class="col-6">
 <button id="btn-submit" class="btn btn-primary" type="submit" onclick="getLab(document.getElementById('instance-id').value)" disabled>Submit</button>
